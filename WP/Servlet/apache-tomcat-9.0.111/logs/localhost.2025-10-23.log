@@ -1,0 +1,6 @@
+23-Oct-2025 11:17:38.550 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Oct-2025 11:17:38.550 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Oct-2025 11:17:38.551 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@37f1104d')
+23-Oct-2025 11:22:16.726 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionCreated('D21865351537FF83123279EF00BE4ED3')
+23-Oct-2025 11:29:42.417 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Oct-2025 11:29:42.418 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

@@ -1,0 +1,397 @@
+14-Nov-2025 09:45:49.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+14-Nov-2025 09:45:49.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+14-Nov-2025 09:45:49.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+14-Nov-2025 09:45:49.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Nov-2025 09:45:49.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+14-Nov-2025 09:45:49.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Nov-2025 09:45:49.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+14-Nov-2025 09:45:49.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+14-Nov-2025 09:45:49.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+14-Nov-2025 09:45:49.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 09:45:49.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 09:45:49.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/conf/logging.properties
+14-Nov-2025 09:45:49.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2025 09:45:49.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2025 09:45:49.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2025 09:45:49.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+14-Nov-2025 09:45:49.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2025 09:45:49.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Nov-2025 09:45:49.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 09:45:49.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 09:45:49.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/temp
+14-Nov-2025 09:45:49.398 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+14-Nov-2025 09:45:50.337 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 09:45:50.659 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1935] milliseconds
+14-Nov-2025 09:45:50.750 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2025 09:45:50.750 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+14-Nov-2025 09:45:50.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Login]
+14-Nov-2025 09:45:50.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Login] has finished in [228] ms
+14-Nov-2025 09:45:50.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/docs]
+14-Nov-2025 09:45:51.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/docs] has finished in [17] ms
+14-Nov-2025 09:45:51.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/list]
+14-Nov-2025 09:45:51.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/list] has finished in [14] ms
+14-Nov-2025 09:45:51.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ex]
+14-Nov-2025 09:45:51.033 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ex] has finished in [19] ms
+14-Nov-2025 09:45:51.033 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/fact]
+14-Nov-2025 09:45:51.045 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/fact] has finished in [12] ms
+14-Nov-2025 09:45:51.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/examples]
+14-Nov-2025 09:45:51.279 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/examples] has finished in [233] ms
+14-Nov-2025 09:45:51.279 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher]
+14-Nov-2025 09:45:51.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher] has finished in [15] ms
+14-Nov-2025 09:45:51.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT]
+14-Nov-2025 09:45:51.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT] has finished in [11] ms
+14-Nov-2025 09:45:51.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager]
+14-Nov-2025 09:45:51.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager] has finished in [16] ms
+14-Nov-2025 09:45:51.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/manager]
+14-Nov-2025 09:45:51.343 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/manager] has finished in [22] ms
+14-Nov-2025 09:45:51.343 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Report]
+14-Nov-2025 09:45:51.353 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Report] has finished in [10] ms
+14-Nov-2025 09:45:51.356 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 09:45:51.377 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [717] milliseconds
+14-Nov-2025 09:46:31.361 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Example]
+14-Nov-2025 09:46:31.370 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Example] has finished in [9] ms
+14-Nov-2025 09:54:51.428 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Example]
+14-Nov-2025 09:54:51.428 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Example] has started
+14-Nov-2025 09:54:51.505 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Example] is completed
+14-Nov-2025 09:56:08.048 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Nov-2025 09:56:08.048 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 09:56:08.050 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Nov-2025 09:56:08.067 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 09:56:08.072 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 09:56:11.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+14-Nov-2025 09:56:11.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+14-Nov-2025 09:56:11.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+14-Nov-2025 09:56:11.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Nov-2025 09:56:11.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+14-Nov-2025 09:56:11.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Nov-2025 09:56:11.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+14-Nov-2025 09:56:11.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+14-Nov-2025 09:56:11.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+14-Nov-2025 09:56:11.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 09:56:11.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 09:56:11.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/conf/logging.properties
+14-Nov-2025 09:56:11.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2025 09:56:11.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2025 09:56:11.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2025 09:56:11.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+14-Nov-2025 09:56:11.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2025 09:56:11.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Nov-2025 09:56:11.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 09:56:11.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 09:56:11.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/temp
+14-Nov-2025 09:56:11.944 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+14-Nov-2025 09:56:12.152 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 09:56:12.165 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [327] milliseconds
+14-Nov-2025 09:56:12.182 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2025 09:56:12.183 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+14-Nov-2025 09:56:12.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Login]
+14-Nov-2025 09:56:12.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Login] has finished in [146] ms
+14-Nov-2025 09:56:12.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/docs]
+14-Nov-2025 09:56:12.347 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/docs] has finished in [14] ms
+14-Nov-2025 09:56:12.347 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/list]
+14-Nov-2025 09:56:12.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/list] has finished in [13] ms
+14-Nov-2025 09:56:12.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ex]
+14-Nov-2025 09:56:12.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ex] has finished in [18] ms
+14-Nov-2025 09:56:12.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/fact]
+14-Nov-2025 09:56:12.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/fact] has finished in [11] ms
+14-Nov-2025 09:56:12.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/examples]
+14-Nov-2025 09:56:12.502 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/examples] has finished in [112] ms
+14-Nov-2025 09:56:12.502 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher]
+14-Nov-2025 09:56:12.513 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher] has finished in [11] ms
+14-Nov-2025 09:56:12.513 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT]
+14-Nov-2025 09:56:12.521 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT] has finished in [8] ms
+14-Nov-2025 09:56:12.522 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Example]
+14-Nov-2025 09:56:12.531 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Example] has finished in [9] ms
+14-Nov-2025 09:56:12.531 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager]
+14-Nov-2025 09:56:12.544 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager] has finished in [13] ms
+14-Nov-2025 09:56:12.544 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/manager]
+14-Nov-2025 09:56:12.555 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/manager] has finished in [11] ms
+14-Nov-2025 09:56:12.555 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Report]
+14-Nov-2025 09:56:12.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Report] has finished in [11] ms
+14-Nov-2025 09:56:12.569 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 09:56:12.576 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [410] milliseconds
+14-Nov-2025 10:32:52.952 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Nov-2025 10:32:52.952 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:32:52.954 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Nov-2025 10:32:52.973 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:32:52.976 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:32:55.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+14-Nov-2025 10:32:55.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+14-Nov-2025 10:32:55.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+14-Nov-2025 10:32:55.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Nov-2025 10:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+14-Nov-2025 10:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Nov-2025 10:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+14-Nov-2025 10:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+14-Nov-2025 10:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+14-Nov-2025 10:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/conf/logging.properties
+14-Nov-2025 10:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2025 10:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2025 10:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2025 10:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+14-Nov-2025 10:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2025 10:32:55.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Nov-2025 10:32:55.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:32:55.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:32:55.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/temp
+14-Nov-2025 10:32:55.446 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+14-Nov-2025 10:32:55.677 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:32:55.689 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [349] milliseconds
+14-Nov-2025 10:32:55.706 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2025 10:32:55.706 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+14-Nov-2025 10:32:55.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Login]
+14-Nov-2025 10:32:55.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Login] has finished in [149] ms
+14-Nov-2025 10:32:55.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/docs]
+14-Nov-2025 10:32:55.873 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/docs] has finished in [14] ms
+14-Nov-2025 10:32:55.873 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/list]
+14-Nov-2025 10:32:55.886 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/list] has finished in [13] ms
+14-Nov-2025 10:32:55.886 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ex]
+14-Nov-2025 10:32:55.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ex] has finished in [21] ms
+14-Nov-2025 10:32:55.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/fact]
+14-Nov-2025 10:32:55.921 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/fact] has finished in [14] ms
+14-Nov-2025 10:32:55.921 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/examples]
+14-Nov-2025 10:32:56.054 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/examples] has finished in [133] ms
+14-Nov-2025 10:32:56.055 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher]
+14-Nov-2025 10:32:56.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher] has finished in [10] ms
+14-Nov-2025 10:32:56.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT]
+14-Nov-2025 10:32:56.074 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT] has finished in [8] ms
+14-Nov-2025 10:32:56.074 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Example]
+14-Nov-2025 10:32:56.087 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Example] has finished in [13] ms
+14-Nov-2025 10:32:56.087 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager]
+14-Nov-2025 10:32:56.106 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager] has finished in [19] ms
+14-Nov-2025 10:32:56.107 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/manager]
+14-Nov-2025 10:32:56.122 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/manager] has finished in [14] ms
+14-Nov-2025 10:32:56.122 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Report]
+14-Nov-2025 10:32:56.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Report] has finished in [14] ms
+14-Nov-2025 10:32:56.140 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:32:56.148 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [458] milliseconds
+14-Nov-2025 10:36:43.052 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Nov-2025 10:36:43.052 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:36:43.054 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Nov-2025 10:36:43.075 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:36:43.087 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:36:44.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+14-Nov-2025 10:36:44.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+14-Nov-2025 10:36:44.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+14-Nov-2025 10:36:44.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Nov-2025 10:36:44.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+14-Nov-2025 10:36:44.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Nov-2025 10:36:44.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+14-Nov-2025 10:36:44.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+14-Nov-2025 10:36:44.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+14-Nov-2025 10:36:44.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:36:44.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:36:44.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/conf/logging.properties
+14-Nov-2025 10:36:44.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2025 10:36:44.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2025 10:36:44.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2025 10:36:44.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+14-Nov-2025 10:36:44.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2025 10:36:44.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Nov-2025 10:36:44.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:36:44.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:36:44.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/temp
+14-Nov-2025 10:36:44.424 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+14-Nov-2025 10:36:44.631 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:36:44.643 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [324] milliseconds
+14-Nov-2025 10:36:44.662 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2025 10:36:44.662 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+14-Nov-2025 10:36:44.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Login]
+14-Nov-2025 10:36:44.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Login] has finished in [145] ms
+14-Nov-2025 10:36:44.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/docs]
+14-Nov-2025 10:36:44.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/docs] has finished in [14] ms
+14-Nov-2025 10:36:44.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/list]
+14-Nov-2025 10:36:44.839 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/list] has finished in [13] ms
+14-Nov-2025 10:36:44.839 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ex]
+14-Nov-2025 10:36:44.858 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ex] has finished in [19] ms
+14-Nov-2025 10:36:44.858 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/fact]
+14-Nov-2025 10:36:44.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/fact] has finished in [14] ms
+14-Nov-2025 10:36:44.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/examples]
+14-Nov-2025 10:36:45.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/examples] has finished in [140] ms
+14-Nov-2025 10:36:45.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher]
+14-Nov-2025 10:36:45.027 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher] has finished in [15] ms
+14-Nov-2025 10:36:45.027 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT]
+14-Nov-2025 10:36:45.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT] has finished in [10] ms
+14-Nov-2025 10:36:45.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Example]
+14-Nov-2025 10:36:45.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Example] has finished in [12] ms
+14-Nov-2025 10:36:45.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager]
+14-Nov-2025 10:36:45.064 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager] has finished in [14] ms
+14-Nov-2025 10:36:45.064 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/manager]
+14-Nov-2025 10:36:45.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/manager] has finished in [12] ms
+14-Nov-2025 10:36:45.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Report]
+14-Nov-2025 10:36:45.087 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Report] has finished in [11] ms
+14-Nov-2025 10:36:45.090 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:36:45.097 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [453] milliseconds
+14-Nov-2025 10:44:13.102 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Nov-2025 10:44:13.103 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:44:13.105 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Nov-2025 10:44:13.127 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:44:13.138 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:44:14.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+14-Nov-2025 10:44:14.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+14-Nov-2025 10:44:14.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+14-Nov-2025 10:44:14.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Nov-2025 10:44:14.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+14-Nov-2025 10:44:14.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Nov-2025 10:44:14.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+14-Nov-2025 10:44:14.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+14-Nov-2025 10:44:14.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+14-Nov-2025 10:44:14.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:44:14.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:44:14.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/conf/logging.properties
+14-Nov-2025 10:44:14.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2025 10:44:14.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2025 10:44:14.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2025 10:44:14.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+14-Nov-2025 10:44:14.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2025 10:44:14.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Nov-2025 10:44:14.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:44:14.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:44:14.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/temp
+14-Nov-2025 10:44:14.871 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+14-Nov-2025 10:44:15.079 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:44:15.092 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [330] milliseconds
+14-Nov-2025 10:44:15.111 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2025 10:44:15.111 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+14-Nov-2025 10:44:15.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Login]
+14-Nov-2025 10:44:15.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Login] has finished in [146] ms
+14-Nov-2025 10:44:15.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/docs]
+14-Nov-2025 10:44:15.277 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/docs] has finished in [13] ms
+14-Nov-2025 10:44:15.277 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/list]
+14-Nov-2025 10:44:15.290 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/list] has finished in [13] ms
+14-Nov-2025 10:44:15.290 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ex]
+14-Nov-2025 10:44:15.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ex] has finished in [20] ms
+14-Nov-2025 10:44:15.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/fact]
+14-Nov-2025 10:44:15.324 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/fact] has finished in [14] ms
+14-Nov-2025 10:44:15.325 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/examples]
+14-Nov-2025 10:44:15.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/examples] has finished in [139] ms
+14-Nov-2025 10:44:15.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher]
+14-Nov-2025 10:44:15.475 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher] has finished in [12] ms
+14-Nov-2025 10:44:15.475 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT]
+14-Nov-2025 10:44:15.483 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT] has finished in [8] ms
+14-Nov-2025 10:44:15.484 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Example]
+14-Nov-2025 10:44:15.494 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Example] has finished in [10] ms
+14-Nov-2025 10:44:15.494 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager]
+14-Nov-2025 10:44:15.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager] has finished in [11] ms
+14-Nov-2025 10:44:15.506 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/manager]
+14-Nov-2025 10:44:15.516 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/manager] has finished in [11] ms
+14-Nov-2025 10:44:15.516 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Report]
+14-Nov-2025 10:44:15.526 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Report] has finished in [10] ms
+14-Nov-2025 10:44:15.529 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:44:15.537 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [444] milliseconds
+14-Nov-2025 10:55:09.267 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Nov-2025 10:55:09.268 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:55:09.270 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Nov-2025 10:55:09.289 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:55:09.292 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:55:10.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+14-Nov-2025 10:55:10.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+14-Nov-2025 10:55:10.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+14-Nov-2025 10:55:10.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Nov-2025 10:55:10.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+14-Nov-2025 10:55:10.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Nov-2025 10:55:10.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+14-Nov-2025 10:55:10.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+14-Nov-2025 10:55:10.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+14-Nov-2025 10:55:10.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:55:10.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:55:10.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/conf/logging.properties
+14-Nov-2025 10:55:10.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2025 10:55:10.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2025 10:55:10.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2025 10:55:10.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+14-Nov-2025 10:55:10.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2025 10:55:10.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Nov-2025 10:55:10.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:55:10.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:55:10.920 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/temp
+14-Nov-2025 10:55:10.921 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+14-Nov-2025 10:55:11.135 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:55:11.147 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [336] milliseconds
+14-Nov-2025 10:55:11.166 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2025 10:55:11.166 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+14-Nov-2025 10:55:11.171 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Login]
+14-Nov-2025 10:55:11.315 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Login] has finished in [144] ms
+14-Nov-2025 10:55:11.315 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/docs]
+14-Nov-2025 10:55:11.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/docs] has finished in [18] ms
+14-Nov-2025 10:55:11.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/list]
+14-Nov-2025 10:55:11.346 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/list] has finished in [13] ms
+14-Nov-2025 10:55:11.347 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ex]
+14-Nov-2025 10:55:11.365 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ex] has finished in [19] ms
+14-Nov-2025 10:55:11.365 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/fact]
+14-Nov-2025 10:55:11.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/fact] has finished in [12] ms
+14-Nov-2025 10:55:11.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/examples]
+14-Nov-2025 10:55:11.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/examples] has finished in [112] ms
+14-Nov-2025 10:55:11.491 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher]
+14-Nov-2025 10:55:11.502 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher] has finished in [12] ms
+14-Nov-2025 10:55:11.502 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT]
+14-Nov-2025 10:55:11.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT] has finished in [9] ms
+14-Nov-2025 10:55:11.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Example]
+14-Nov-2025 10:55:11.521 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Example] has finished in [10] ms
+14-Nov-2025 10:55:11.522 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager]
+14-Nov-2025 10:55:11.535 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager] has finished in [12] ms
+14-Nov-2025 10:55:11.535 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/manager]
+14-Nov-2025 10:55:11.546 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/manager] has finished in [11] ms
+14-Nov-2025 10:55:11.546 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Report]
+14-Nov-2025 10:55:11.555 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Report] has finished in [9] ms
+14-Nov-2025 10:55:11.558 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:55:11.565 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [418] milliseconds
+14-Nov-2025 10:59:35.348 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Nov-2025 10:59:35.349 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:59:35.351 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Nov-2025 10:59:35.375 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:59:35.384 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:59:38.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+14-Nov-2025 10:59:38.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+14-Nov-2025 10:59:38.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+14-Nov-2025 10:59:38.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Nov-2025 10:59:38.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+14-Nov-2025 10:59:38.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Nov-2025 10:59:38.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+14-Nov-2025 10:59:38.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+14-Nov-2025 10:59:38.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+14-Nov-2025 10:59:38.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:59:38.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:59:38.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/conf/logging.properties
+14-Nov-2025 10:59:38.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2025 10:59:38.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2025 10:59:38.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2025 10:59:38.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+14-Nov-2025 10:59:38.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2025 10:59:38.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Nov-2025 10:59:38.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:59:38.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111
+14-Nov-2025 10:59:38.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/temp
+14-Nov-2025 10:59:38.698 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+14-Nov-2025 10:59:38.923 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:59:38.935 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [357] milliseconds
+14-Nov-2025 10:59:38.954 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Nov-2025 10:59:38.954 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+14-Nov-2025 10:59:38.959 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Login]
+14-Nov-2025 10:59:39.104 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Login] has finished in [145] ms
+14-Nov-2025 10:59:39.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/docs]
+14-Nov-2025 10:59:39.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/docs] has finished in [13] ms
+14-Nov-2025 10:59:39.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/list]
+14-Nov-2025 10:59:39.130 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/list] has finished in [12] ms
+14-Nov-2025 10:59:39.130 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ex]
+14-Nov-2025 10:59:39.147 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ex] has finished in [17] ms
+14-Nov-2025 10:59:39.147 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/fact]
+14-Nov-2025 10:59:39.158 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/fact] has finished in [11] ms
+14-Nov-2025 10:59:39.158 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/examples]
+14-Nov-2025 10:59:39.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/examples] has finished in [111] ms
+14-Nov-2025 10:59:39.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher]
+14-Nov-2025 10:59:39.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher] has finished in [11] ms
+14-Nov-2025 10:59:39.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT]
+14-Nov-2025 10:59:39.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT] has finished in [8] ms
+14-Nov-2025 10:59:39.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Example]
+14-Nov-2025 10:59:39.299 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Example] has finished in [10] ms
+14-Nov-2025 10:59:39.299 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager]
+14-Nov-2025 10:59:39.312 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager] has finished in [13] ms
+14-Nov-2025 10:59:39.312 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/manager]
+14-Nov-2025 10:59:39.323 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/manager] has finished in [11] ms
+14-Nov-2025 10:59:39.323 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Report]
+14-Nov-2025 10:59:39.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/WP/Servlet/apache-tomcat-9.0.111/webapps/Report] has finished in [10] ms
+14-Nov-2025 10:59:39.337 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Nov-2025 10:59:39.344 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [408] milliseconds
