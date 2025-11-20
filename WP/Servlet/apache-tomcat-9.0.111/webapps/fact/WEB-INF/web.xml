@@ -1,0 +1,11 @@
+<web-app>
+<servlet>
+<servlet-name>ff</servlet-name>
+<servlet-class>FindFact</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ff</servlet-name>
+<url-pattern>/find</url-pattern>
+</servlet-mapping>
+</web-app>
+

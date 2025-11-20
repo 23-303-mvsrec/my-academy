@@ -1,0 +1,790 @@
+19-Nov-2025 12:30:06.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+19-Nov-2025 12:30:06.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+19-Nov-2025 12:30:06.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+19-Nov-2025 12:30:06.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2025 12:30:06.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+19-Nov-2025 12:30:06.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2025 12:30:06.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+19-Nov-2025 12:30:06.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+19-Nov-2025 12:30:06.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+19-Nov-2025 12:30:06.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 12:30:06.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 12:30:06.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/conf/logging.properties
+19-Nov-2025 12:30:06.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2025 12:30:06.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2025 12:30:06.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2025 12:30:06.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Nov-2025 12:30:06.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2025 12:30:06.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2025 12:30:06.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 12:30:06.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 12:30:06.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/temp
+19-Nov-2025 12:30:06.700 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Nov-2025 12:30:07.263 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 12:30:07.290 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [875] milliseconds
+19-Nov-2025 12:30:07.345 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2025 12:30:07.346 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+19-Nov-2025 12:30:07.350 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Login]
+19-Nov-2025 12:30:07.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Login] has finished in [201] ms
+19-Nov-2025 12:30:07.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/docs]
+19-Nov-2025 12:30:07.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/docs] has finished in [14] ms
+19-Nov-2025 12:30:07.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/list]
+19-Nov-2025 12:30:07.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/list] has finished in [14] ms
+19-Nov-2025 12:30:07.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ex]
+19-Nov-2025 12:30:07.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ex] has finished in [18] ms
+19-Nov-2025 12:30:07.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session]
+19-Nov-2025 12:30:07.611 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session] has finished in [12] ms
+19-Nov-2025 12:30:07.611 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/fact]
+19-Nov-2025 12:30:07.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/fact] has finished in [12] ms
+19-Nov-2025 12:30:07.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/examples]
+19-Nov-2025 12:30:07.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/examples] has finished in [138] ms
+19-Nov-2025 12:30:07.762 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher]
+19-Nov-2025 12:30:07.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher] has finished in [13] ms
+19-Nov-2025 12:30:07.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT]
+19-Nov-2025 12:30:07.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT] has finished in [8] ms
+19-Nov-2025 12:30:07.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Example]
+19-Nov-2025 12:30:07.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Example] has finished in [14] ms
+19-Nov-2025 12:30:07.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager]
+19-Nov-2025 12:30:07.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager] has finished in [11] ms
+19-Nov-2025 12:30:07.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/manager]
+19-Nov-2025 12:30:07.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/manager] has finished in [10] ms
+19-Nov-2025 12:30:07.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Report]
+19-Nov-2025 12:30:07.830 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Report] has finished in [10] ms
+19-Nov-2025 12:30:07.833 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 12:30:07.846 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [556] milliseconds
+19-Nov-2025 12:31:17.843 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Session]
+19-Nov-2025 12:31:17.843 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Session] has started
+19-Nov-2025 12:31:17.863 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/Session]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Session]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:404)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3258)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1411)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1386)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [validate]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2825)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:855)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1509)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1296)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:971)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:288)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4395)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 18 more
+19-Nov-2025 12:31:17.864 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Session] is completed
+19-Nov-2025 12:31:37.867 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Session]
+19-Nov-2025 12:31:47.880 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Session]
+19-Nov-2025 12:31:47.881 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Session] has started
+19-Nov-2025 12:31:47.894 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Session] is completed
+19-Nov-2025 12:32:27.900 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Session]
+19-Nov-2025 12:32:27.900 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Session] has started
+19-Nov-2025 12:32:27.911 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Session] is completed
+19-Nov-2025 12:39:09.074 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2025 12:39:09.074 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 12:39:09.076 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2025 12:39:09.092 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 12:39:09.099 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 12:39:11.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+19-Nov-2025 12:39:11.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+19-Nov-2025 12:39:11.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+19-Nov-2025 12:39:11.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2025 12:39:11.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+19-Nov-2025 12:39:11.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2025 12:39:11.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+19-Nov-2025 12:39:11.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+19-Nov-2025 12:39:11.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+19-Nov-2025 12:39:11.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 12:39:11.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 12:39:11.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/conf/logging.properties
+19-Nov-2025 12:39:11.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2025 12:39:11.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2025 12:39:11.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2025 12:39:11.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Nov-2025 12:39:11.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2025 12:39:11.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2025 12:39:11.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 12:39:11.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 12:39:11.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/temp
+19-Nov-2025 12:39:11.818 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Nov-2025 12:39:12.025 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 12:39:12.040 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [331] milliseconds
+19-Nov-2025 12:39:12.067 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2025 12:39:12.067 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+19-Nov-2025 12:39:12.074 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Login]
+19-Nov-2025 12:39:12.229 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Login] has finished in [156] ms
+19-Nov-2025 12:39:12.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/docs]
+19-Nov-2025 12:39:12.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/docs] has finished in [13] ms
+19-Nov-2025 12:39:12.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/list]
+19-Nov-2025 12:39:12.256 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/list] has finished in [13] ms
+19-Nov-2025 12:39:12.256 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ex]
+19-Nov-2025 12:39:12.276 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ex] has finished in [20] ms
+19-Nov-2025 12:39:12.276 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session]
+19-Nov-2025 12:39:12.287 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session] has finished in [11] ms
+19-Nov-2025 12:39:12.287 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/fact]
+19-Nov-2025 12:39:12.298 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/fact] has finished in [11] ms
+19-Nov-2025 12:39:12.299 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/examples]
+19-Nov-2025 12:39:12.403 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/examples] has finished in [104] ms
+19-Nov-2025 12:39:12.403 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher]
+19-Nov-2025 12:39:12.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher] has finished in [12] ms
+19-Nov-2025 12:39:12.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT]
+19-Nov-2025 12:39:12.424 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT] has finished in [9] ms
+19-Nov-2025 12:39:12.424 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Example]
+19-Nov-2025 12:39:12.438 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Example] has finished in [13] ms
+19-Nov-2025 12:39:12.438 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager]
+19-Nov-2025 12:39:12.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager] has finished in [16] ms
+19-Nov-2025 12:39:12.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/manager]
+19-Nov-2025 12:39:12.468 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/manager] has finished in [13] ms
+19-Nov-2025 12:39:12.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Report]
+19-Nov-2025 12:39:12.483 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Report] has finished in [14] ms
+19-Nov-2025 12:39:12.486 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 12:39:12.493 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [452] milliseconds
+19-Nov-2025 12:41:58.024 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2025 12:41:58.025 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 12:41:58.027 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2025 12:41:58.047 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 12:41:58.049 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 12:41:59.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+19-Nov-2025 12:41:59.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+19-Nov-2025 12:41:59.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+19-Nov-2025 12:41:59.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2025 12:41:59.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+19-Nov-2025 12:41:59.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2025 12:41:59.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+19-Nov-2025 12:41:59.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+19-Nov-2025 12:41:59.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+19-Nov-2025 12:41:59.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 12:41:59.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 12:41:59.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/conf/logging.properties
+19-Nov-2025 12:41:59.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2025 12:41:59.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2025 12:41:59.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2025 12:41:59.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Nov-2025 12:41:59.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2025 12:41:59.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2025 12:41:59.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 12:41:59.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 12:41:59.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/temp
+19-Nov-2025 12:41:59.973 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Nov-2025 12:42:00.174 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 12:42:00.186 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [334] milliseconds
+19-Nov-2025 12:42:00.204 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2025 12:42:00.205 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+19-Nov-2025 12:42:00.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Login]
+19-Nov-2025 12:42:00.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Login] has finished in [150] ms
+19-Nov-2025 12:42:00.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/docs]
+19-Nov-2025 12:42:00.374 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/docs] has finished in [13] ms
+19-Nov-2025 12:42:00.374 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/list]
+19-Nov-2025 12:42:00.386 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/list] has finished in [12] ms
+19-Nov-2025 12:42:00.386 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ex]
+19-Nov-2025 12:42:00.403 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ex] has finished in [17] ms
+19-Nov-2025 12:42:00.403 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session]
+19-Nov-2025 12:42:00.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session] has finished in [11] ms
+19-Nov-2025 12:42:00.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/fact]
+19-Nov-2025 12:42:00.425 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/fact] has finished in [11] ms
+19-Nov-2025 12:42:00.425 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/examples]
+19-Nov-2025 12:42:00.531 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/examples] has finished in [106] ms
+19-Nov-2025 12:42:00.532 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher]
+19-Nov-2025 12:42:00.543 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher] has finished in [11] ms
+19-Nov-2025 12:42:00.543 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT]
+19-Nov-2025 12:42:00.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT] has finished in [9] ms
+19-Nov-2025 12:42:00.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Example]
+19-Nov-2025 12:42:00.563 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Example] has finished in [11] ms
+19-Nov-2025 12:42:00.563 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager]
+19-Nov-2025 12:42:00.576 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager] has finished in [13] ms
+19-Nov-2025 12:42:00.576 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/manager]
+19-Nov-2025 12:42:00.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/manager] has finished in [12] ms
+19-Nov-2025 12:42:00.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Report]
+19-Nov-2025 12:42:00.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Report] has finished in [11] ms
+19-Nov-2025 12:42:00.602 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 12:42:00.609 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [422] milliseconds
+19-Nov-2025 12:46:50.644 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session copy]
+19-Nov-2025 12:46:50.657 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session copy] has finished in [13] ms
+19-Nov-2025 12:47:01.158 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Session copy]
+19-Nov-2025 12:47:01.164 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookies]
+19-Nov-2025 12:47:01.183 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookies] has finished in [18] ms
+19-Nov-2025 12:48:41.695 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Cookies]
+19-Nov-2025 12:49:31.705 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session copy]
+19-Nov-2025 12:49:31.718 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session copy] has finished in [13] ms
+19-Nov-2025 12:49:42.219 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Session copy]
+19-Nov-2025 12:49:42.225 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookies]
+19-Nov-2025 12:49:42.235 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookies] has finished in [9] ms
+19-Nov-2025 12:53:42.759 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Session]
+19-Nov-2025 12:53:42.762 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookie]
+19-Nov-2025 12:53:42.771 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookie] has finished in [9] ms
+19-Nov-2025 12:53:53.272 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Cookies]
+19-Nov-2025 12:53:53.277 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Sessions]
+19-Nov-2025 12:53:53.287 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Sessions] has finished in [9] ms
+19-Nov-2025 12:54:03.788 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Sessions]
+19-Nov-2025 12:54:03.793 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session]
+19-Nov-2025 12:54:03.802 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session] has finished in [9] ms
+19-Nov-2025 13:08:03.882 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Cookie]
+19-Nov-2025 13:08:03.883 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Cookie] has started
+19-Nov-2025 13:08:03.891 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Cookie] is completed
+19-Nov-2025 13:08:13.892 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Cookie]
+19-Nov-2025 13:08:13.892 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Cookie] has started
+19-Nov-2025 13:08:13.900 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/Cookie]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Cookie]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:404)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3258)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1411)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1386)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [Time]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2825)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:855)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1509)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1296)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:971)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:288)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4395)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 18 more
+19-Nov-2025 13:08:13.901 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Cookie] is completed
+19-Nov-2025 13:08:23.903 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Cookie]
+19-Nov-2025 13:08:33.912 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Cookie]
+19-Nov-2025 13:08:33.912 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Cookie] has started
+19-Nov-2025 13:08:33.920 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Cookie] is completed
+19-Nov-2025 13:08:43.921 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Cookie]
+19-Nov-2025 13:08:43.921 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Cookie] has started
+19-Nov-2025 13:08:43.925 SEVERE [Catalina-utility-2] org.apache.tomcat.util.digester.Digester.endElement End event threw exception
+	java.lang.reflect.InvocationTargetException
+		at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:500)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:874)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1026)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1781)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2966)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:601)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:504)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:642)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1246)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:971)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:288)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4395)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3258)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1411)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1386)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [Second] and [Second] are both mapped to the url-pattern [/second] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:415)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:406)
+		... 42 more
+19-Nov-2025 13:08:43.927 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookie/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookie/WEB-INF/web.xml; lineNumber: 27; columnNumber: 23; Error at line [27] column [23]: [The servlets named [Second] and [Second] are both mapped to the url-pattern [/second] which is not permitted]
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1960)
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1993)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1029)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1781)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2966)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:601)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:504)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:642)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1246)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:971)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:288)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4395)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3258)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1411)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1386)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [Second] and [Second] are both mapped to the url-pattern [/second] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:415)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:406)
+		at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:500)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:874)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1026)
+		... 36 more
+19-Nov-2025 13:08:43.928 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [27] column [23]
+19-Nov-2025 13:08:43.928 SEVERE [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+19-Nov-2025 13:08:43.928 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+19-Nov-2025 13:08:43.929 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Context [/Cookie] startup failed due to previous errors
+19-Nov-2025 13:08:43.930 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Cookie] is completed
+19-Nov-2025 13:08:53.931 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Cookie]
+19-Nov-2025 13:08:53.934 SEVERE [Catalina-utility-2] org.apache.tomcat.util.digester.Digester.endElement End event threw exception
+	java.lang.reflect.InvocationTargetException
+		at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:500)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:874)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1026)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1781)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2966)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:601)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:504)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:642)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1246)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:971)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:288)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4395)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1420)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1386)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [Second] and [Final] are both mapped to the url-pattern [/second] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:415)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:406)
+		... 41 more
+19-Nov-2025 13:08:53.935 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookie/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookie/WEB-INF/web.xml; lineNumber: 27; columnNumber: 23; Error at line [27] column [23]: [The servlets named [Second] and [Final] are both mapped to the url-pattern [/second] which is not permitted]
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1960)
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1993)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1029)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1781)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2966)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:601)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:504)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:642)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1246)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:971)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:288)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4395)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1420)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1386)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [Second] and [Final] are both mapped to the url-pattern [/second] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:415)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:406)
+		at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:500)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:874)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1026)
+		... 35 more
+19-Nov-2025 13:08:53.936 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [27] column [23]
+19-Nov-2025 13:08:53.937 SEVERE [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+19-Nov-2025 13:08:53.937 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+19-Nov-2025 13:08:53.937 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Context [/Cookie] startup failed due to previous errors
+19-Nov-2025 13:09:03.939 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Cookie]
+19-Nov-2025 13:09:03.942 SEVERE [Catalina-utility-2] org.apache.tomcat.util.digester.Digester.endElement End event threw exception
+	java.lang.reflect.InvocationTargetException
+		at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:500)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:874)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1026)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1781)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2966)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:601)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:504)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:642)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1246)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:971)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:288)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4395)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1420)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1386)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [Second] and [Final] are both mapped to the url-pattern [/second] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:415)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:406)
+		... 41 more
+19-Nov-2025 13:09:03.944 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at [file:/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookie/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookie/WEB-INF/web.xml; lineNumber: 27; columnNumber: 23; Error at line [27] column [23]: [The servlets named [Second] and [Final] are both mapped to the url-pattern [/second] which is not permitted]
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1960)
+		at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:1993)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1029)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1781)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2966)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:601)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:504)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:642)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1246)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:971)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:288)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4395)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1420)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1386)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1612)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [Second] and [Final] are both mapped to the url-pattern [/second] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:415)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:406)
+		at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.tomcat.util.IntrospectionUtils.callMethodN(IntrospectionUtils.java:500)
+		at org.apache.tomcat.util.descriptor.web.CallMethodMultiRule.end(WebRuleSet.java:874)
+		at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1026)
+		... 35 more
+19-Nov-2025 13:09:03.944 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line [27] column [23]
+19-Nov-2025 13:09:03.945 SEVERE [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+19-Nov-2025 13:09:03.945 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+19-Nov-2025 13:09:03.946 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Context [/Cookie] startup failed due to previous errors
+19-Nov-2025 13:09:23.949 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Cookie]
+19-Nov-2025 13:09:42.654 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2025 13:09:42.655 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:09:42.656 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2025 13:09:42.672 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:09:42.679 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:09:44.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+19-Nov-2025 13:09:44.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+19-Nov-2025 13:09:44.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+19-Nov-2025 13:09:44.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2025 13:09:44.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+19-Nov-2025 13:09:44.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2025 13:09:44.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+19-Nov-2025 13:09:44.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+19-Nov-2025 13:09:44.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+19-Nov-2025 13:09:44.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 13:09:44.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 13:09:44.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/conf/logging.properties
+19-Nov-2025 13:09:44.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2025 13:09:44.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2025 13:09:44.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2025 13:09:44.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Nov-2025 13:09:44.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2025 13:09:44.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2025 13:09:44.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 13:09:44.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 13:09:44.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/temp
+19-Nov-2025 13:09:44.780 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Nov-2025 13:09:45.013 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:09:45.031 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [360] milliseconds
+19-Nov-2025 13:09:45.054 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2025 13:09:45.054 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+19-Nov-2025 13:09:45.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Login]
+19-Nov-2025 13:09:45.222 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Login] has finished in [163] ms
+19-Nov-2025 13:09:45.222 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/docs]
+19-Nov-2025 13:09:45.239 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/docs] has finished in [17] ms
+19-Nov-2025 13:09:45.240 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/list]
+19-Nov-2025 13:09:45.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/list] has finished in [15] ms
+19-Nov-2025 13:09:45.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ex]
+19-Nov-2025 13:09:45.273 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ex] has finished in [19] ms
+19-Nov-2025 13:09:45.273 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session]
+19-Nov-2025 13:09:45.285 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session] has finished in [11] ms
+19-Nov-2025 13:09:45.285 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/fact]
+19-Nov-2025 13:09:45.299 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/fact] has finished in [14] ms
+19-Nov-2025 13:09:45.299 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/examples]
+19-Nov-2025 13:09:45.434 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/examples] has finished in [134] ms
+19-Nov-2025 13:09:45.434 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher]
+19-Nov-2025 13:09:45.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher] has finished in [13] ms
+19-Nov-2025 13:09:45.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookie]
+19-Nov-2025 13:09:45.460 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookie] has finished in [12] ms
+19-Nov-2025 13:09:45.460 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT]
+19-Nov-2025 13:09:45.468 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT] has finished in [8] ms
+19-Nov-2025 13:09:45.468 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Example]
+19-Nov-2025 13:09:45.478 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Example] has finished in [10] ms
+19-Nov-2025 13:09:45.478 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager]
+19-Nov-2025 13:09:45.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager] has finished in [14] ms
+19-Nov-2025 13:09:45.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/manager]
+19-Nov-2025 13:09:45.504 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/manager] has finished in [12] ms
+19-Nov-2025 13:09:45.504 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Report]
+19-Nov-2025 13:09:45.515 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Report] has finished in [11] ms
+19-Nov-2025 13:09:45.518 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:09:45.524 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [492] milliseconds
+19-Nov-2025 13:10:45.528 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Cookie]
+19-Nov-2025 13:10:45.528 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Cookie] has started
+19-Nov-2025 13:10:45.543 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Cookie] is completed
+19-Nov-2025 13:10:55.545 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Cookie]
+19-Nov-2025 13:10:55.546 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Cookie] has started
+19-Nov-2025 13:10:55.560 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Cookie] is completed
+19-Nov-2025 13:13:15.580 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Session]
+19-Nov-2025 13:13:15.580 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Session] has started
+19-Nov-2025 13:13:15.591 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Session] is completed
+19-Nov-2025 13:13:25.592 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/Session]
+19-Nov-2025 13:13:25.592 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Session] has started
+19-Nov-2025 13:13:25.602 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Session] is completed
+19-Nov-2025 13:15:55.620 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Session]
+19-Nov-2025 13:15:55.620 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Session] has started
+19-Nov-2025 13:15:55.630 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Session] is completed
+19-Nov-2025 13:17:15.639 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Session]
+19-Nov-2025 13:17:15.639 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Session] has started
+19-Nov-2025 13:17:15.651 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Session] is completed
+19-Nov-2025 13:28:14.671 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2025 13:28:14.671 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:28:14.673 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2025 13:28:14.702 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:28:14.707 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:28:16.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+19-Nov-2025 13:28:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+19-Nov-2025 13:28:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+19-Nov-2025 13:28:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2025 13:28:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+19-Nov-2025 13:28:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2025 13:28:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+19-Nov-2025 13:28:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+19-Nov-2025 13:28:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+19-Nov-2025 13:28:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 13:28:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 13:28:16.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/conf/logging.properties
+19-Nov-2025 13:28:16.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2025 13:28:16.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2025 13:28:16.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2025 13:28:16.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Nov-2025 13:28:16.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2025 13:28:16.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2025 13:28:16.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 13:28:16.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 13:28:16.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/temp
+19-Nov-2025 13:28:16.466 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Nov-2025 13:28:16.684 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:28:16.698 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [338] milliseconds
+19-Nov-2025 13:28:16.717 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2025 13:28:16.717 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+19-Nov-2025 13:28:16.722 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Login]
+19-Nov-2025 13:28:16.871 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Login] has finished in [148] ms
+19-Nov-2025 13:28:16.871 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/docs]
+19-Nov-2025 13:28:16.887 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/docs] has finished in [16] ms
+19-Nov-2025 13:28:16.888 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/list]
+19-Nov-2025 13:28:16.904 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/list] has finished in [16] ms
+19-Nov-2025 13:28:16.904 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ex]
+19-Nov-2025 13:28:16.924 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ex] has finished in [20] ms
+19-Nov-2025 13:28:16.925 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session]
+19-Nov-2025 13:28:16.939 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session] has finished in [14] ms
+19-Nov-2025 13:28:16.939 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/fact]
+19-Nov-2025 13:28:16.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/fact] has finished in [14] ms
+19-Nov-2025 13:28:16.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/examples]
+19-Nov-2025 13:28:17.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/examples] has finished in [136] ms
+19-Nov-2025 13:28:17.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher]
+19-Nov-2025 13:28:17.100 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher] has finished in [11] ms
+19-Nov-2025 13:28:17.100 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookie]
+19-Nov-2025 13:28:17.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookie] has finished in [19] ms
+19-Nov-2025 13:28:17.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT]
+19-Nov-2025 13:28:17.126 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT] has finished in [7] ms
+19-Nov-2025 13:28:17.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Example]
+19-Nov-2025 13:28:17.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Example] has finished in [9] ms
+19-Nov-2025 13:28:17.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager]
+19-Nov-2025 13:28:17.149 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager] has finished in [13] ms
+19-Nov-2025 13:28:17.149 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/manager]
+19-Nov-2025 13:28:17.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/manager] has finished in [11] ms
+19-Nov-2025 13:28:17.161 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Report]
+19-Nov-2025 13:28:17.171 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Report] has finished in [10] ms
+19-Nov-2025 13:28:17.174 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:28:17.181 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [482] milliseconds
+19-Nov-2025 13:30:13.967 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Nov-2025 13:30:13.968 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:30:13.970 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Nov-2025 13:30:14.001 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:30:14.013 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:30:15.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+19-Nov-2025 13:30:15.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+19-Nov-2025 13:30:15.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+19-Nov-2025 13:30:15.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Nov-2025 13:30:15.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+19-Nov-2025 13:30:15.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Nov-2025 13:30:15.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+19-Nov-2025 13:30:15.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+19-Nov-2025 13:30:15.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+19-Nov-2025 13:30:15.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 13:30:15.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 13:30:15.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/conf/logging.properties
+19-Nov-2025 13:30:15.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Nov-2025 13:30:15.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Nov-2025 13:30:15.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Nov-2025 13:30:15.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Nov-2025 13:30:15.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Nov-2025 13:30:15.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Nov-2025 13:30:15.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 13:30:15.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111
+19-Nov-2025 13:30:15.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/temp
+19-Nov-2025 13:30:15.156 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Nov-2025 13:30:15.366 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:30:15.378 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [327] milliseconds
+19-Nov-2025 13:30:15.396 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Nov-2025 13:30:15.396 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+19-Nov-2025 13:30:15.401 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Login]
+19-Nov-2025 13:30:15.542 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Login] has finished in [141] ms
+19-Nov-2025 13:30:15.543 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/docs]
+19-Nov-2025 13:30:15.557 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/docs] has finished in [14] ms
+19-Nov-2025 13:30:15.557 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/list]
+19-Nov-2025 13:30:15.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/list] has finished in [12] ms
+19-Nov-2025 13:30:15.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ex]
+19-Nov-2025 13:30:15.589 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ex] has finished in [19] ms
+19-Nov-2025 13:30:15.589 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session]
+19-Nov-2025 13:30:15.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Session] has finished in [11] ms
+19-Nov-2025 13:30:15.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/fact]
+19-Nov-2025 13:30:15.611 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/fact] has finished in [10] ms
+19-Nov-2025 13:30:15.612 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/examples]
+19-Nov-2025 13:30:15.731 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/examples] has finished in [120] ms
+19-Nov-2025 13:30:15.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher]
+19-Nov-2025 13:30:15.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Dispatcher] has finished in [14] ms
+19-Nov-2025 13:30:15.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookie]
+19-Nov-2025 13:30:15.768 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Cookie] has finished in [22] ms
+19-Nov-2025 13:30:15.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT]
+19-Nov-2025 13:30:15.778 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/ROOT] has finished in [10] ms
+19-Nov-2025 13:30:15.778 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Example]
+19-Nov-2025 13:30:15.788 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Example] has finished in [10] ms
+19-Nov-2025 13:30:15.788 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager]
+19-Nov-2025 13:30:15.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/host-manager] has finished in [13] ms
+19-Nov-2025 13:30:15.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/manager]
+19-Nov-2025 13:30:15.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/manager] has finished in [12] ms
+19-Nov-2025 13:30:15.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Report]
+19-Nov-2025 13:30:15.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/2II-Java_Lab/WP/Servlet/apache-tomcat-9.0.111/webapps/Report] has finished in [12] ms
+19-Nov-2025 13:30:15.831 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Nov-2025 13:30:15.840 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [461] milliseconds
