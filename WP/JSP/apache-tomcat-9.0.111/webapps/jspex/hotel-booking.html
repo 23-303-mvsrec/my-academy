@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <form action="Hotel.jsp" method="get">
+        <h1>Hotel Booking System</h1>
+        Name: <input type="text" name="name"><br><br>
+        Mobile Number: <input type="text" name="mobile" id="mobile"><br><br>
+        Number of Guests: <select  name="guests" id="guests">
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select><br>
+        Room Type:<br>
+        <input type="radio" name="roomType" value="Economy" id="economy">Economy <br>
+        <input type="radio" name="roomType" value="Regular" id="regular">Regular <br>
+        <input type="radio" name="roomType" value="Premium" id="premium"> Premium <br>
+        Number of Days: <input type="text" name="days" id="days"> <br><br>
+        Boarding date: <input type="date" name="boarding" id="boarding"> <br><br>
+        <input type="submit" value="Book Now">
+    </form>
+    </center>
+</body>
+</html>

@@ -18,20 +18,20 @@ public class Disp extends HttpServlet {
             username = request.getParameter("username");
         }
 
-        out.println("<!DOCTYPE html>");
-        out.println("<html><head><title>Welcome</title></head><body>");
-        out.println("<h1>Welcome, " + (username != null ? escapeHtml(username) : "Guest") + "!</h1>");
+        // out.println("<!DOCTYPE html>");
+        // out.println("<html><head><title>Welcome</title></head><body>");
+        out.println("<h1>Welco, " + (username != null ? username: "Guest") + "!</h1>");
         out.println("<p>You have successfully logged in.</p>");
-        out.println("</body></html>");
-    }
+    //     out.println("</body></html>");
+     }
 
-    private String escapeHtml(String s) {
-        if (s == null) return null;
-        return s.replace("&", "&amp;")
-                .replace("<", "&lt;")
-                .replace(">", "&gt;")
-                .replace("\"", "&quot;")
-                .replace("'", "&#39;");
-    }
+    // private String escapeHtml(String s) {
+    //     if (s == null) return null;
+    //     return s.replace("&", "&amp;")
+    //             .replace("<", "&lt;")
+    //             .replace(">", "&gt;")
+    //             .replace("\"", "&quot;")
+    //             .replace("'", "&#39;");
+    // }
 }
 
