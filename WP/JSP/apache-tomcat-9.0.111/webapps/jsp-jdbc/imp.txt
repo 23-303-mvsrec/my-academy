@@ -1,0 +1,1 @@
+Servlets or jsp applications with JDBC need web.xml file to included under WEB-INF/lib folder
