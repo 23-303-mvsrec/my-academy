@@ -5,9 +5,11 @@ public class Product {
     private double price;
     private int qty;
     private double disc;
-    private double finalPrice;
+    //private double finalPrice;
 
-public String getPid() { return pid;
+     public String getPid() { 
+        return pid;
+     }
 
     public void setPid(String x) {
         pid = x;
@@ -26,7 +28,7 @@ public String getPid() { return pid;
     }
 
     public void setQty(int y) {
-    }qty=y;
+    qty= y; }
 
     public double getDisc() {
         return disc;
