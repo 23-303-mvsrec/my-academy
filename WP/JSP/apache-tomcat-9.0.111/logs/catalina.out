@@ -3773,3 +3773,160 @@ Login Successful!!<br>
 26-Nov-2025 13:16:54.350 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/manager] has finished in [14] ms
 26-Nov-2025 13:16:54.354 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 26-Nov-2025 13:16:54.361 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [520] milliseconds
+28-Nov-2025 10:07:43.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+28-Nov-2025 10:07:43.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+28-Nov-2025 10:07:43.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+28-Nov-2025 10:07:43.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Nov-2025 10:07:43.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+28-Nov-2025 10:07:43.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2025 10:07:43.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+28-Nov-2025 10:07:43.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+28-Nov-2025 10:07:43.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+28-Nov-2025 10:07:43.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111
+28-Nov-2025 10:07:43.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111
+28-Nov-2025 10:07:44.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/conf/logging.properties
+28-Nov-2025 10:07:44.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2025 10:07:44.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2025 10:07:44.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2025 10:07:44.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+28-Nov-2025 10:07:44.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Nov-2025 10:07:44.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2025 10:07:44.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111
+28-Nov-2025 10:07:44.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111
+28-Nov-2025 10:07:44.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/temp
+28-Nov-2025 10:07:44.036 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Nov-2025 10:07:44.696 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Nov-2025 10:07:44.740 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1144] milliseconds
+28-Nov-2025 10:07:44.816 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2025 10:07:44.817 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+28-Nov-2025 10:07:44.821 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/docs]
+28-Nov-2025 10:07:45.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/docs] has finished in [274] ms
+28-Nov-2025 10:07:45.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/jsp-jdbc]
+28-Nov-2025 10:07:45.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/jsp-jdbc] has finished in [40] ms
+28-Nov-2025 10:07:45.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/examples]
+28-Nov-2025 10:07:45.381 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/examples] has finished in [239] ms
+28-Nov-2025 10:07:45.382 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/jspex]
+28-Nov-2025 10:07:45.404 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/jspex] has finished in [23] ms
+28-Nov-2025 10:07:45.404 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/ROOT]
+28-Nov-2025 10:07:45.432 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/ROOT] has finished in [27] ms
+28-Nov-2025 10:07:45.432 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/host-manager]
+28-Nov-2025 10:07:45.458 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/host-manager] has finished in [26] ms
+28-Nov-2025 10:07:45.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/manager]
+28-Nov-2025 10:07:45.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/manager] has finished in [14] ms
+28-Nov-2025 10:07:45.476 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Nov-2025 10:07:45.499 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [759] milliseconds
+init Called
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1351)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1160)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:109)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:53)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.jsp.select_jsp.jspInit(select_jsp.java:27)
+	at org.apache.jasper.runtime.HttpJspBase.init(HttpJspBase.java:44)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:173)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:385)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:349)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:300)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:197)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:643)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:935)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1831)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.lang.Thread.run(Thread.java:750)
+java.lang.NullPointerException
+	at org.apache.jsp.select_jsp.jspDestroy(select_jsp.java:37)
+	at org.apache.jasper.runtime.HttpJspBase.destroy(HttpJspBase.java:55)
+	at org.apache.jasper.servlet.JspServletWrapper.destroy(JspServletWrapper.java:476)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:160)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:385)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:349)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:300)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:197)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:142)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:643)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:935)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1831)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.lang.Thread.run(Thread.java:750)
+28-Nov-2025 10:15:17.190 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Nov-2025 10:15:17.191 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Nov-2025 10:15:17.192 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Nov-2025 10:15:17.246 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Nov-2025 10:15:17.256 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Nov-2025 10:15:20.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.111
+28-Nov-2025 10:15:20.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 10 2025 14:13:20 UTC
+28-Nov-2025 10:15:20.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.111.0
+28-Nov-2025 10:15:20.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Nov-2025 10:15:20.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-35-generic
+28-Nov-2025 10:15:20.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2025 10:15:20.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+28-Nov-2025 10:15:20.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_402-8u402-ga-2ubuntu1~22.04-b06
+28-Nov-2025 10:15:20.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+28-Nov-2025 10:15:20.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111
+28-Nov-2025 10:15:20.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111
+28-Nov-2025 10:15:20.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/conf/logging.properties
+28-Nov-2025 10:15:20.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2025 10:15:20.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2025 10:15:20.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2025 10:15:20.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+28-Nov-2025 10:15:20.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Nov-2025 10:15:20.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2025 10:15:20.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111
+28-Nov-2025 10:15:20.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111
+28-Nov-2025 10:15:20.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/temp
+28-Nov-2025 10:15:20.570 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Nov-2025 10:15:20.833 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Nov-2025 10:15:20.845 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [388] milliseconds
+28-Nov-2025 10:15:20.862 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2025 10:15:20.862 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.111]
+28-Nov-2025 10:15:20.867 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/docs]
+28-Nov-2025 10:15:21.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/docs] has finished in [139] ms
+28-Nov-2025 10:15:21.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/jsp-jdbc]
+28-Nov-2025 10:15:21.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/jsp-jdbc] has finished in [23] ms
+28-Nov-2025 10:15:21.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/examples]
+28-Nov-2025 10:15:21.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/examples] has finished in [148] ms
+28-Nov-2025 10:15:21.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/jspex]
+28-Nov-2025 10:15:21.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/jspex] has finished in [15] ms
+28-Nov-2025 10:15:21.194 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/ROOT]
+28-Nov-2025 10:15:21.207 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/ROOT] has finished in [14] ms
+28-Nov-2025 10:15:21.207 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/host-manager]
+28-Nov-2025 10:15:21.227 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/host-manager] has finished in [20] ms
+28-Nov-2025 10:15:21.227 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/manager]
+28-Nov-2025 10:15:21.242 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/mvsr/303CSE/my-academy/WP/JSP/apache-tomcat-9.0.111/webapps/manager] has finished in [15] ms
+28-Nov-2025 10:15:21.246 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Nov-2025 10:15:21.254 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [409] milliseconds
